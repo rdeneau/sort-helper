@@ -1,9 +1,16 @@
 {
   "name": "sort-helper",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Micro library to help sorting arrays of objects more expressively",
-  "main": "src/sort-helper.ts",
+  "files": ["dist/**/*"],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
+    "prepare" : "npm run build",
+    "prepublishOnly" : "npm test",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags",
     "test": "jest",
     "tdd": "jest --watchAll"
   },
