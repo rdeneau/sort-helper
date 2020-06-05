@@ -1,5 +1,8 @@
 # Sort Helper
 
+  ![npm](https://img.shields.io/npm/v/sort-helper)
+  ![npm](https://img.shields.io/npm/dt/sort-helper)
+
 `sort-helper` is a micro-library providing some helpers to enhance expressivity when sorting arrays of objects, using the syntax `items.sort(by(column, ...otherColumns))`, with several way to indicate columns:
 
 - By *key*: `persons.sort(by('lastName', 'firstName'))`,
