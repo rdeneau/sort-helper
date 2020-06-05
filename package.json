@@ -1,6 +1,6 @@
 {
   "name": "sort-helper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Micro library to help sorting arrays of objects more expressively",
   "files": ["dist/**/*"],
   "main": "dist/index.js",
